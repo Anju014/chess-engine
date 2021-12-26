@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "chess-engine/pkg/uci"
 
 func main() {
-	fmt.Println("hello world!")
+    uci.RunCLI()
 }
